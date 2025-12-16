@@ -1,4 +1,4 @@
-package com.example.tg_mini_app_v2
+package com.example.fl_mini_app_v2
 
 import io.flutter.embedding.android.FlutterActivity
 
