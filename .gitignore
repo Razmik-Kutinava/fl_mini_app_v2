@@ -43,3 +43,15 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Build artifacts in root (should not be in git)
+/main.dart.js
+/index.html
+/manifest.json
+/version.json
+/canvaskit/
+/icons/
+/flutter.js
+/flutter_bootstrap.js
+/flutter_service_worker.js
+/favicon.png
