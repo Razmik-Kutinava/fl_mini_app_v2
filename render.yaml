@@ -1,17 +1,1 @@
-services:
-  - type: static
-    name: fl-mini-app
-    env: static
-    branch: main
-    buildCommand: >
-      apt-get update &&
-      apt-get install -y curl xz-utils unzip git &&
-      curl -LO https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.16.3-stable.tar.xz &&
-      tar xf flutter_linux_3.16.3-stable.tar.xz &&
-      export PATH="$PWD/flutter/bin:$PATH" &&
-      flutter config --enable-web &&
-      flutter pub get &&
-      flutter build web --release
-    staticPublishPath: build/web
-    pullRequestPreviewsEnabled: false
 
